@@ -51,6 +51,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 button {
@@ -74,7 +75,7 @@ button {
 
 #noBtn {
     background-color: #e0e0e0;
-    position: absolute;
+    position: relative;
 }
 
 #warningText {
