@@ -1,1 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffd6e8, #ffc2f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.buttons {
+    position: relative;
+    height: 80px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+#yesBtn {
+    background-color: #ff4da6;
+    color: white;
+    margin-right: 10px;
+}
+
+#yesBtn:hover {
+    transform: scale(1.1);
+}
+
+#noBtn {
+    background-color: #ccc;
+    position: absolute;
+}
+
+#warningText {
+    color: red;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#celebration {
+    width: 150px;
+    margin: 15px 0;
+}
+
+#secretBtn {
+    background-color: #ff4da6;
+    color: white;
+    margin-top: 15px;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.secret-message {
+    font-size: 16px;
+}
