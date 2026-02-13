@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valentine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+
+    <!-- Stage 1 -->
+    <div id="stage1" class="card">
+        <h1>Will you be my Valentine? 💌</h1>
+
+        <div class="buttons">
+            <button id="yesBtn">Yes 💗</button>
+            <button id="noBtn">No 🤍</button>
+        </div>
+
+        <p id="warningText"></p>
+        <small>Okay… you're lucky.</small>
+    </div>
+
+    <!-- Stage 2 -->
+    <div id="stage2" class="card hidden">
+        <h1>YAYYY 🎉</h1>
+        <img src="images/celebration.gif" id="celebration" alt="celebration">
+        <p>You had no choice anyway.</p>
+        <button id="secretBtn">Secret 🔐</button>
+    </div>
+
+    <!-- Stage 3 -->
+    <div id="stage3" class="card hidden">
+        <img src="images/photo.jpg" alt="photo" class="photo">
+        <p class="secret-message">
+            <!-- You will add your personal message here later -->
+            Your secret message goes here...
+        </p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
