@@ -34,8 +34,8 @@ body {
     display: none;
 }
 
-.panda {
-    width: 110px;
+.emoji-top {
+    font-size: 32px;
     margin-bottom: 15px;
 }
 
@@ -111,7 +111,7 @@ button {
     line-height: 1.5;
 }
 
-/* Mobile fine tuning */
+/* Mobile */
 @media (max-width: 480px) {
     .card {
         padding: 30px 20px;
@@ -121,7 +121,7 @@ button {
         font-size: 20px;
     }
 
-    .panda {
-        width: 90px;
+    .emoji-top {
+        font-size: 26px;
     }
 }
